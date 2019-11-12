@@ -1,0 +1,21 @@
+.background {
+  viewport-fill: black;
+}
+
+#digitalClock {
+  font-size: 30;
+  font-family: Fabrikat-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 53%;
+  fill: white;
+}
+
+.white {
+  fill: white;
+}
+
+.arcUnderlay {
+  fill: #1f1f1f;
+}

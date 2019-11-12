@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "e4e818fa-766f-45e6-8c99-bfd06a390985",
+    "appType": "clockface",
+    "appDisplayName": "Minimalist Arcs",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Minimalist Arcs"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}

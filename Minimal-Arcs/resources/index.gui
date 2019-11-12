@@ -1,0 +1,27 @@
+<svg id="root" class="background" >
+  <rect id="triggerRect" pointer-events="visible" x="35%" y="35%" width="30%" height="30%" fill="black"/>
+  
+  <text id="digitalClock" opacity="0" pointer-events="visible">
+    <animate attributeName="opacity" begin="enable" from="0" to="1" dur=".5"/>
+    <animate attributeName="opacity" begin="disable" from="1" to="0" dur=".5"/>
+  </text>
+  
+  <arc id="arcSecondsUnderlay" class="arcUnderlay" />
+  <arc id="arcMinutesUnderlay" class="arcUnderlay" />
+  <arc id="arcHoursUnderlay" class="arcUnderlay" />
+  
+  <arc id="arcSeconds" class="white" />
+  <circle id="arcSecondsStart" class="white" />
+  <circle id="arcSecondsEnd" class="white" />
+  
+  <arc id="arcMinutes" class="white"/>
+  <circle id="arcMinutesStart" class="white"/>
+  <circle id="arcMinutesEnd" class="white"/>
+  
+  <arc id="arcHours" class="white"/>
+  <circle id="arcHoursStart" class="white"/>
+  <circle id="arcHoursEnd" class="white"/>
+  
+  <!-- USE KPAY UI CODE - ADD ALL OWN UI CODE ABOVE THIS LINE -->
+  <use href="#kpay" />
+</svg>
